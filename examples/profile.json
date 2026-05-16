@@ -1,0 +1,31 @@
+{
+  "applicant": "Codex User",
+  "project_name": "Application Agent Studio",
+  "problem": "申请表经常要求描述 AI/Agent 具体成果，但很多人只有零散经历，难以写成可信、具体、可验证的答案",
+  "agent_workflow": [
+    "PlannerAgent 规划回答结构",
+    "EvidenceAgent 检查 GitHub、技术栈、个人贡献和结果证据",
+    "WriterAgent 生成适合申请表粘贴的中文回答",
+    "ReviewAgent 根据完整度和可信度给出评分与修改建议"
+  ],
+  "tech_stack": [
+    "Python",
+    "dataclasses",
+    "CLI",
+    "JSON profile",
+    "GitHub README"
+  ],
+  "personal_contribution": [
+    "设计了多 Agent 工作流和评分标准",
+    "实现了从结构化背景到申请回答的自动生成 CLI",
+    "补充了示例输入、示例输出和项目说明文档"
+  ],
+  "outcome": [
+    "可以在一分钟内生成一版 300-500 字的申请成果描述",
+    "能够自动指出缺失的证据材料，减少空泛表述",
+    "形成了可公开展示的 GitHub 项目骨架"
+  ],
+  "repository_url": "",
+  "demo_url": ""
+}
+
