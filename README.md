@@ -36,6 +36,14 @@ python -m unittest discover
 
 见 [docs/sample-answer.md](docs/sample-answer.md)。
 
+## Proof for Application
+
+如果申请表要求上传“使用证明与影响力证明”，可以提交：
+
+- GitHub 项目链接：https://github.com/0ling271/application-agent-studio
+- Agent 工作流证明：[docs/evidence.md](docs/evidence.md)
+- 本地运行命令截图：`python -m src.app --profile examples/profile.json`
+
 ## Why This Counts As Agent/AI Driven Work
 
 这个项目不是只调用一次模型生成文本，而是把申请描述拆成多个 Agent 任务：规划、证据审查、写作、复核。每个 Agent 有明确输入输出，最终形成可追踪的工作流，适合用来说明“我使用 Agent 或 AI 驱动构建了什么具体成果”。
