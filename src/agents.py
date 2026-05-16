@@ -54,7 +54,7 @@ class WriterAgent:
             links.append(f"GitHub：{profile.repository_url}")
         if profile.demo_url:
             links.append(f"Demo：{profile.demo_url}")
-        link_text = "；".join(links) if links else "目前已整理本地仓库和示例输出，后续会补充公开链接。"
+        link_text = "；".join(links) + "。" if links else "目前已整理本地仓库和示例输出，后续会补充公开链接。"
 
         text = (
             f"我构建了一个名为 {profile.project_name} 的 Agent/AI 驱动项目，用来解决"
